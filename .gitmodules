@@ -10,3 +10,12 @@
 [submodule "modules/common"]
 	path = modules/common
 	url = git@github.com:cegeka/puppet-common.git
+[submodule "modules/cegekarepos"]
+	path = modules/cegekarepos
+	url = git@github.com:cegeka/puppet-cegekarepos.git
+[submodule "modules/yum"]
+	path = modules/yum
+	url = git@github.com:cegeka/puppet-yum.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = git@github.com:cegeka/puppet-stdlib.git
