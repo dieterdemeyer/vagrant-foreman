@@ -4,8 +4,11 @@
 DOMAIN="example.com"
 SUBNET="172.16.0"
 
+VAGRANTFILE_API_VERSION = "2"
+
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 #Vagrant.configure("2") do |config|
-Vagrant::Config.run do |config|
+#Vagrant::Config.run do |config|
   config.vm.define :foreman do |vmconfig|
     vmconfig.vm.box = "puppetnode1"
     vmconfig.vm.box_url = "https://codex.cegeka.be/vagrant/baseboxes/puppetnode1-centos6_virtualbox.box"
